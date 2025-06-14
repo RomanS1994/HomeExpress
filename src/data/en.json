@@ -1,0 +1,46 @@
+{
+  "nav.projects": "Our Projects",
+  "nav.services": "Services",
+  "nav.certificates": "Certificates",
+  "btn.call": "Request a call",
+  "btn.details": "Read more",
+
+  "hero.text": "Modern, responsible and human construction solutions. A new generation of craftsmanship.",
+  "features.item1": "Value — we don’t promise, we deliver.",
+  "features.item2": "Value — pragmatic yet sincere.",
+  "features.item3": "Value — we speak honestly, not promise falsely.",
+
+  "intro.title": "We create your NEW home in every sense of the word.",
+  "intro.description": "We don't just build houses — we create an environment where you, your family, and your loved ones feel safe, cozy and comfortable.",
+  "stat.houses.title": "15 houses",
+  "stat.houses.desc": "Currently in development and construction phase",
+  "stat.modern.title": "Modern and warm houses",
+  "stat.modern.desc": "We use the latest construction technologies",
+  "stat.families.title": "400 families",
+  "stat.families.desc": "Chose our company and trusted NDB",
+
+  "section.projects": "Our Projects",
+  "project.title": "Project name",
+  "project.size": "House 100 m²",
+  "project.area": "Total build area 120 m²",
+  "project.structure": "1 floor + attic",
+
+  "section.services": "Services",
+  "service.title": "Electrical installation",
+  "service.description": "Electrical installation description...",
+
+  "section.certificates": "Certificates",
+  "cta.title": "Want to learn about available offers right now?",
+  "cta.subtitle": "Leave us your phone number and we’ll contact you soon!",
+  "cta.input.name": "Your name",
+  "cta.input.phone": "Phone",
+  "cta.helper": "*By clicking the button you agree to the processing of personal data",
+
+  "footer.description": "Modern, human and ready to change everything for the better. HomeExpress is not just a name. It's an approach.",
+  "footer.rights": "2025 © HomeExpress. All rights reserved",
+
+  "lang.ua": "Ukrainian",
+  "lang.en": "English",
+  "lang.cz": "Czech",
+  "lang.ru": "Russian"
+}

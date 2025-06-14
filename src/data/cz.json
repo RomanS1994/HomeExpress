@@ -1,0 +1,46 @@
+{
+  "nav.projects": "Naše projekty",
+  "nav.services": "Služby",
+  "nav.certificates": "Certifikáty",
+  "btn.call": "Zavolejte mi",
+  "btn.details": "Více info",
+
+  "hero.text": "Moderní, odpovědná a lidská stavební řešení. Nová generace řemesla.",
+  "features.item1": "Hodnota – neslibujeme, plníme.",
+  "features.item2": "Hodnota – jsme pragmatičtí, ale upřímní.",
+  "features.item3": "Hodnota – mluvíme upřímně, neslibujeme falešně.",
+
+  "intro.title": "Vytváříme váš NOVÝ domov ve všech smyslech tohoto slova.",
+  "intro.description": "Nevytváříme jen domy – tvoříme prostředí, kde se vy i vaši blízcí cítíte bezpečně a pohodlně.",
+  "stat.houses.title": "15 domů",
+  "stat.houses.desc": "Ve fázi výstavby nebo realizace",
+  "stat.modern.title": "Moderní a teplé domy",
+  "stat.modern.desc": "Používáme nejnovější stavební technologie",
+  "stat.families.title": "400 rodin",
+  "stat.families.desc": "Zvolili nás a důvěřují NDB",
+
+  "section.projects": "Naše projekty",
+  "project.title": "Název projektu",
+  "project.size": "Dům 100 m²",
+  "project.area": "Zastavěná plocha 120 m²",
+  "project.structure": "1 patro + podkroví",
+
+  "section.services": "Služby",
+  "service.title": "Elektroinstalační práce",
+  "service.description": "Popis elektroinstalačních prací...",
+
+  "section.certificates": "Certifikáty",
+  "cta.title": "Chcete se dozvědět o dostupných nabídkách právě teď?",
+  "cta.subtitle": "Zanechte nám své číslo a brzy se vám ozveme!",
+  "cta.input.name": "Vaše jméno",
+  "cta.input.phone": "Telefon",
+  "cta.helper": "*Kliknutím na tlačítko souhlasíte se zpracováním osobních údajů",
+
+  "footer.description": "Moderní, lidský a připravený změnit vše k lepšímu. HomeExpress není jen název. Je to přístup.",
+  "footer.rights": "2025 © HomeExpress. Všechna práva vyhrazena",
+
+  "lang.ua": "Ukrajinsky",
+  "lang.en": "Anglicky",
+  "lang.cz": "čeština",
+  "lang.ru": "Rusky"
+}
