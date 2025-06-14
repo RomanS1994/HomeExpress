@@ -1,19 +1,30 @@
+/* COLORS */
+
 :root {
-  /* COLORS */
-  --dark-brown: #02182a;
-  --white: #fff;
-  --secondary-accent-color: #fcfae9;
-  --grey: #7f7f7f;
-  --accent-color: #ded47b;
-  --cyan-Blue: #193f47;
-  --logo-Blue: #083459;
-  --dark-brown: #02182a;
-  --black: #090b15;
-  --focus-color: #fcfaf2;
+  /* main colors */
+  --black: #000000;
+  --blue: #104fc7;
+  --gold: #f2c520;
+  --lightgray: #f3f3f3;
+  --white: #ffffff;
+
+  /*  */
+  --charcoal: #2b2b2f;
+  --brown: #8a6f54;
+  --lemon: #edde6a;
+  --gray: #9e9f94;
+  --snow: #fbfbfc;
+
+  /*  */
+  --olive: #52503f;
+  --brick: #b56253;
+  --amber: #f5bb22;
+  --stone: #93948b;
+  --mint: #f1f5f2;
 
   /* FONT-FAMILY */
-  --font-family-Poppins: 'Poppins', sans-serif;
-  --font-family-Raleway: 'Raleway', sans-serif;
+  --font-header: "Raleway", sans-serif;
+  --font-body: "Inter", sans-serif;
 
   /* TIMING */
 }

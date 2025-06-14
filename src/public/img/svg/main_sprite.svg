@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="arrow-2" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M6.667 16h18.667M17.341 8.01l8 8M17.325 24.01l8-8"/>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M22.667 9.333 9.334 22.666M22.667 21.333v-12h-12"/>
+    </symbol>
+    <symbol id="Burger" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M5.333 10.667h21.333M5.333 21.333h21.333"/>
+    </symbol>
+    <symbol id="floors" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M29.333 6.667h-6.667v6.667h-6.667v6.667H9.332v6.667H2.665"/>
+    </symbol>
+    <symbol id="money" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M14.667 8c0 1.061.702 2.078 1.953 2.828S19.566 12 21.334 12s3.464-.421 4.714-1.172c1.25-.75 1.953-1.768 1.953-2.828s-.702-2.078-1.953-2.828C24.798 4.422 23.102 4 21.334 4s-3.464.421-4.714 1.172c-1.25.75-1.953 1.768-1.953 2.828z"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M14.667 8v5.333c0 2.209 2.985 4 6.667 4s6.667-1.791 6.667-4V8"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M14.667 13.333v5.333c0 2.209 2.985 4 6.667 4s6.667-1.791 6.667-4v-5.333"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M14.667 18.667V24c0 2.209 2.985 4 6.667 4s6.667-1.791 6.667-4v-5.333M9.333 12H6a2 2 0 0 0 0 4h1.333a2 2 0 0 1 0 4H4M6.667 20v1.333m0-10.666V12"/>
+    </symbol>
+    <symbol id="square" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M10.667 13.333a2.668 2.668 0 0 1 2.667-2.667h10.667a2.67 2.67 0 0 1 2.667 2.667V24a2.67 2.67 0 0 1-2.667 2.667H13.334A2.668 2.668 0 0 1 10.667 24V13.333zM10.667 19.333l8.656-8.656M17.995 26.667l8.672-8.672M11.448 25.885l14.436-14.436"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M21.333 10.667V8a2.668 2.668 0 0 0-2.667-2.667H7.999A2.668 2.668 0 0 0 5.332 8v10.667a2.67 2.67 0 0 0 2.667 2.667h2.667"/>
+    </symbol>
+  </defs>
+</svg>
