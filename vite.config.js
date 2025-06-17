@@ -14,9 +14,11 @@ export default defineConfig(({ command }) => {
     root: "src",
     build: {
       sourcemap: true,
+      outDir: "../dist",
+      emptyOutDir: true,
       rollupOptions: {
         input: {
-          main: resolve(__dirname, "index.html"),
+          main: resolve(__dirname, "src/index.html"),
           uk: resolve(__dirname, "src/uk/index.html"),
           en: resolve(__dirname, "src/en/index.html"),
           ru: resolve(__dirname, "src/ru/index.html"),
@@ -42,8 +44,6 @@ export default defineConfig(({ command }) => {
           },
         },
       },
-      outDir: "../dist",
-      emptyOutDir: true,
     },
     plugins: [
       injectHTML(),

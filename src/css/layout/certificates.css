@@ -1,12 +1,8 @@
 /* Styles for Mobile devices */
 
-
-  /* Styles for Tablet devices */
-  @media only screen and (min-width: 790px) {
-  
-  }
-  /* Styles for Desktop devices */
-  @media only screen and (min-width: 1380px) {
-
-  }
-  
+/* Styles for Tablet devices */
+@media only screen and (min-width: 790px) {
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1380px) {
+}
