@@ -7,13 +7,18 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
   .container {
-    max-width: 790px;
+    max-width: 794px;
   }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1380px) {
   .container {
+    padding: 0;
+
     width: 1380px;
     max-width: 1380px;
+  }
+  .burger-btn {
+    display: none;
   }
 }

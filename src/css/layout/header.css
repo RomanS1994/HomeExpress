@@ -14,10 +14,9 @@ header {
   margin-right: 77px;
 }
 .nav-list {
-  display: flex;
-  gap: 40px;
-  margin-right: 77px;
+  display: none;
 }
+
 .nav-item {
   padding: 16px 0;
 }
@@ -37,9 +36,9 @@ header {
   letter-spacing: 0.6px;
 }
 .header-actions {
-  display: flex;
-  gap: 16px;
+  display: none;
 }
+
 .btn {
 }
 .btn-call {
@@ -163,9 +162,27 @@ header {
   transform: rotate(180deg);
 }
 
+.burger-btn {
+  background-color: transparent;
+}
+
+.burger-btn:hover,
+.burger-btn:active svg {
+  stroke: var(--lemon);
+}
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1380px) {
+  .nav-list {
+    display: flex;
+    gap: 40px;
+    margin-right: 77px;
+  }
+  .header-actions {
+    display: flex;
+    gap: 16px;
+  }
 }

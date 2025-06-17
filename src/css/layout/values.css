@@ -6,14 +6,17 @@
 }
 .values-list {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 .values-item {
   display: flex;
   flex-direction: row;
   align-items: center;
 
-  width: 446px;
+  width: 410px;
   height: 186px;
   padding: 40px;
   gap: 8px;
@@ -53,7 +56,18 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
+  .values-list {
+    gap: 20px;
+  }
+  .values-item {
+    width: 446px;
+  }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1380px) {
+  .values-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
