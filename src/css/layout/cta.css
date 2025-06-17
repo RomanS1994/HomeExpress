@@ -1,12 +1,122 @@
 /* Styles for Mobile devices */
+.cta {
+  background: var(--Neutral-20, #ededf0);
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.cta-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cta-box {
+  display: flex;
+  width: 680px;
+  height: 582px;
+  padding: 56px;
+  flex-direction: column;
 
+  flex-shrink: 0;
 
-  /* Styles for Tablet devices */
-  @media only screen and (min-width: 790px) {
-  
-  }
-  /* Styles for Desktop devices */
-  @media only screen and (min-width: 1380px) {
+  border-radius: 32px;
+  background: var(--blue);
+}
+.cta-title {
+  color: var(--white);
 
-  }
-  
+  /* Headline 3 */
+  font-family: var(--font-Raleway);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+  letter-spacing: 0.64px;
+
+  margin-bottom: 8px;
+}
+.cta-description {
+  color: var(--white);
+
+  /* Body 18 Light */
+  font-family: var(--font-Inter);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.18px;
+
+  margin-bottom: 56px;
+}
+.cta-form {
+}
+.form-input {
+  width: 100%;
+  padding: 16px 24px;
+
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid var(--Secondary-10, #fffbea);
+
+  margin-bottom: 16px;
+  /* Body 18 Light */
+  font-family: var(--font-Inter);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.18px;
+  color: var(--Secondary-10, #fffbea);
+}
+
+.form-input:focus {
+  color: var(--Secondary-20, #fae8a6);
+}
+
+.form-input::placeholder {
+  font-family: var(--font-Inter);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.18px;
+  color: var(--Secondary-10, #fffbea);
+}
+.btn {
+}
+.btn-submit {
+  margin: 16px 0;
+  width: 100%;
+}
+.cta-helper {
+  color: var(--white);
+
+  /* Caption Regular */
+  font-family: var(--font-Inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.14px;
+}
+.img-box {
+  padding: 0;
+  width: 680px;
+  height: 582px;
+  background-image: image-set(
+    url(/img/gesktop/cta.jpg) 1x,
+    url(/img/gesktop/cta@2x.jpg) 2x
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 790px) {
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1380px) {
+}

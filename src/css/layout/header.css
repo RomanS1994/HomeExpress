@@ -57,6 +57,13 @@ header {
   height: 62px;
   padding: 12px 4px;
   gap: 8px;
+  border-radius: 8px;
+
+  transition: border 0.4s ease;
+}
+.lang-toggle:hover {
+  background-color: rgba(195, 205, 55, 0.2);
+  border: 1px solid var(--lemon);
 }
 
 .lang-toggle img {

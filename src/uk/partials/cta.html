@@ -1,6 +1,6 @@
 <!-- Call to Action Section -->
 <section id="cta" class="cta">
-  <div class="container">
+  <div class="container cta-container">
     <div class="cta-box">
       <h3 class="cta-title">
         Бажаєте дізнатися про доступні пропозиції просто зараз?
@@ -11,7 +11,12 @@
       <form class="cta-form">
         <input type="text" class="form-input" placeholder="Ваше ім’я" />
         <input type="tel" class="form-input" placeholder="Телефон" />
-        <button type="submit" class="btn btn-submit">Замовити дзвінок</button>
+        <button type="submit" class="btn btn-submit">
+          Замовити дзвінок
+          <svg class="btn-call-svg" width="24" height="24">
+            <use href="/img/svg/main_sprite.svg#arrow" />
+          </svg>
+        </button>
       </form>
       <p class="cta-helper">
         *Натискаючи кнопку ви надаєте згоду на обробку персональних даних

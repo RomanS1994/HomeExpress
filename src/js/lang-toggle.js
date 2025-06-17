@@ -11,3 +11,19 @@ document.addEventListener("click", (e) => {
     langMenu.classList.remove("active");
   }
 });
+
+const toggleBtnFooter = document.getElementById("lang-toggle-footer");
+const langMenuFooter = document.getElementById("lang-menu-footer");
+
+toggleBtnFooter.addEventListener("click", () => {
+  langMenuFooter.classList.toggle("active");
+});
+
+document.addEventListener("click", (e) => {
+  if (
+    !toggleBtnFooter.contains(e.target) &&
+    !langMenuFooter.contains(e.target)
+  ) {
+    langMenuFooter.classList.remove("active");
+  }
+});

@@ -1,6 +1,6 @@
 <!-- Call to Action Section -Russian-->
 <section id="cta" class="cta">
-  <div class="container">
+  <div class="container cta-container">
     <div class="cta-box">
       <h3 class="cta-title">
         Хотите узнать о доступных предложениях прямо сейчас?
@@ -11,7 +11,12 @@
       <form class="cta-form">
         <input type="text" class="form-input" placeholder="Ваше имя" />
         <input type="tel" class="form-input" placeholder="Телефон" />
-        <button type="submit" class="btn btn-submit">Заказать звонок</button>
+        <button type="submit" class="btn btn-submit">
+          Заказать звонок
+          <svg class="btn-call-svg" width="24" height="24">
+            <use href="/img/svg/main_sprite.svg#arrow" />
+          </svg>
+        </button>
       </form>
       <p class="cta-helper">
         *Нажимая кнопку, вы даете согласие на обработку персональных данных

@@ -1,11 +1,11 @@
 <!-- Footer -Russian-->
 <footer class="footer">
-  <div class="container">
+  <div class="container footer-container">
     <div class="footer-content">
       <div class="footer-logo-block">
         <img src="/img/logo.svg" alt="HomeExpress logo" class="footer-logo" />
         <p class="footer-description">
-          Современное, человечное и готовое менять всё к лучшему. HomeExpress —
+          Современный, человечный и готовый менять всё к лучшему. HomeExpress —
           это не просто название. Это подход.
         </p>
       </div>
@@ -16,30 +16,39 @@
           <li><a href="#certificates" class="footer-link">Сертификаты</a></li>
         </ul>
       </nav>
+      <div class="lang-dropdown">
+        <button class="lang-toggle" id="lang-toggle-footer">
+          <img src="/img/language/ru.png" alt="ru" width="24" height="24" />
+          <span class="footer-lang-selected">Русский</span>
+          <svg class="footer-arr-down-svg" width="24" height="24">
+            <use href="/img/svg/main_sprite.svg#arrow-down"></use>
+          </svg>
+        </button>
+        <ul class="lang-menu" id="lang-menu-footer">
+          <li>
+            <a href="/uk/index.html"
+              ><img src="/img/language/uk.png" alt="uk" /> Українська</a
+            >
+          </li>
+          <li>
+            <a href="/en/index.html"
+              ><img src="/img/language/en.png" alt="en" /> English</a
+            >
+          </li>
+          <li>
+            <a href="/cz/index.html"
+              ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
+            >
+          </li>
+        </ul>
+      </div>
       <div class="footer-actions">
-        <div class="footer-language">
-          <img src="/img/flags/ru.svg" alt="RU" class="lang-flag" />
-          <span class="lang-label">Русский</span>
-          <span class="lang-arrow">▼</span>
-          <ul class="lang-menu">
-            <li>
-              <a href="/uk/index.html"
-                ><img src="/img/flags/ua.svg" alt="ua" /> Українська</a
-              >
-            </li>
-            <li>
-              <a href="/en/index.html"
-                ><img src="/img/flags/en.svg" alt="en" /> English</a
-              >
-            </li>
-            <li>
-              <a href="/cz/index.html"
-                ><img src="/img/flags/cz.svg" alt="cz" /> Čeština</a
-              >
-            </li>
-          </ul>
-        </div>
-        <button class="btn btn-call">Заказать звонок</button>
+        <button class="btn btn-call btn-footer">
+          Заказать звонок
+          <svg class="btn-call-svg" width="24" height="24">
+            <use href="/img/svg/main_sprite.svg#arrow" />
+          </svg>
+        </button>
       </div>
     </div>
     <p class="footer-copy">2025 © HomeExpress. Все права защищены</p>
