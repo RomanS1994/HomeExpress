@@ -56,6 +56,12 @@
 
   transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
+.all {
+  color: var(--Neutral-90);
+}
+.all .btn-call-svg {
+  stroke: var(--Neutral-90);
+}
 
 .btn-more svg {
   stroke: var(--Secondary-50);

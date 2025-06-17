@@ -7,6 +7,7 @@
 
 .projects-btn-h2-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-content: center;
 
@@ -33,11 +34,12 @@
   display: flex;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 56px 48px;
   align-self: stretch;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .project-item {
+  width: 410px;
 }
 .project-image {
   margin-bottom: 32px;
@@ -91,7 +93,23 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
+  .projects-grid {
+    flex-direction: row;
+  }
+  .project-item {
+    width: 385px;
+  }
+  .projects-btn-h2-wrapper {
+    flex-direction: row;
+  }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1380px) {
+  .projects-grid {
+    gap: 56px 48px;
+  }
+
+  .project-item {
+    width: 427px;
+  }
 }
