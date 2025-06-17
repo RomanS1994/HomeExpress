@@ -4,12 +4,15 @@
   /* main colors */
   --black: #000000;
   --blue: #104fc7;
-  --gold: #f2c520;
+  --Secondary-50: #f2c520;
+  --Secondary-60: #cfa50c;
   --lightgray: #f3f3f3;
   --white: #ffffff;
 
   /*  */
   --charcoal: #2b2b2f;
+  --Neutral-90: #111113;
+  --Neutral-70: #343438;
   --brown: #8a6f54;
   --lemon: #edde6a;
   --gray: #9e9f94;
@@ -23,8 +26,9 @@
   --mint: #f1f5f2;
 
   /* FONT-FAMILY */
-  --font-header: "Raleway", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --font-Raleway: "Raleway", sans-serif;
+  --font-Inter: "Inter", sans-serif;
+  --font-Montserrat: "Montserrat", sans-serif;
 
   /* TIMING */
 }

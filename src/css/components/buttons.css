@@ -1,0 +1,75 @@
+.btn {
+  display: flex;
+  width: 400px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 50px;
+  background: var(--Secondary-50, #f2c520);
+
+  text-align: center;
+
+  /* Body 20 SemiBold */
+  font-family: var(--font-Inter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.6px;
+}
+
+.btn:hover {
+  background: var(--Secondary-60, #cfa50c);
+}
+.btn:active {
+  color: var(--Neutral-10, #fff);
+}
+.btn svg {
+  stroke: var(--Neutral-10, #111113);
+  fill: transparent;
+}
+
+.btn:active svg {
+  stroke: var(--Neutral-10, #fff);
+}
+.btn-call {
+}
+
+.btn-more {
+  display: flex;
+  width: 400px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid var(--Secondary-50);
+  color: var(--Secondary-50);
+}
+.btn-more svg {
+  stroke: var(--Secondary-50);
+}
+
+.btn-more:hover {
+  background-color: transparent;
+
+  border: 1px solid var(--Secondary-60);
+  color: var(--Secondary-60);
+}
+
+.btn-more:hover svg {
+  stroke: var(--Secondary-60);
+}
+
+.btn-more:active {
+  background-color: var(--Secondary-60);
+  border: none;
+  color: var(--white);
+}
+.btn-more:active svg {
+  stroke: var(--white);
+}

@@ -18,10 +18,10 @@
 /* Sections style */
 @import url("./layout/header.css");
 @import url("./layout/hero.css");
-@import url("./layout/achievements.css");
+@import url("./layout/about.css");
 @import url("./layout/certificates.css");
 @import url("./layout/cta.css");
-@import url("./layout/features.css");
+@import url("./layout/values.css");
 @import url("./layout/projects.css");
 @import url("./layout/services.css");
 @import url("./layout/footer.css");

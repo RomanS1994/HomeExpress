@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
+    <script>
+      const lang = navigator.language.toLowerCase();
+      if (lang.startsWith("uk")) {
+        window.location.replace("/uk/");
+      } else if (lang.startsWith("en")) {
+        window.location.replace("/en/");
+      } else if (lang.startsWith("ru")) {
+        window.location.replace("/ru/");
+      } else if (lang.startsWith("cs") || lang.startsWith("cz")) {
+        window.location.replace("/cz/");
+      } else {
+        window.location.replace("/uk/");
+      }
+    </script>
     <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/svg+xml"
-      href="./public/img/svg/white-logo.svg"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
-
-    <link rel="canonical" href="https://prime-transfer.com/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Express</title>
-
-    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" />
-    <main>
-      <load src="./partials/hero.html" />
-      <load src="./partials/features.html" />
-      <load src="./partials/achievements.html" />
-      <load src="./partials/projects.html" />
-      <load src="./partials/services.html" />
-      <load src="./partials/certificates.html" />
-      <load src="./partials/cta.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-    <script type="module" src="./main.js"></script>
+    <p>Redirecting based on your browser language...</p>
   </body>
 </html>
