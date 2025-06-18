@@ -1,12 +1,15 @@
 /* Styles for Mobile devices */
 .container {
   min-width: 320px;
-  max-width: 410px;
+  max-width: 430px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
   .container {
+    padding: 0;
+
     max-width: 794px;
   }
 }
