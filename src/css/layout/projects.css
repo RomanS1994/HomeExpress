@@ -39,7 +39,8 @@
   gap: 20px;
 }
 .project-item {
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
 }
 .project-image {
   margin-bottom: 32px;
@@ -97,7 +98,7 @@
     flex-direction: row;
   }
   .project-item {
-    width: 385px;
+    max-width: 385px;
   }
   .projects-btn-h2-wrapper {
     flex-direction: row;
@@ -110,6 +111,6 @@
   }
 
   .project-item {
-    width: 427px;
+    max-width: 427px;
   }
 }

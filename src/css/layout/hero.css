@@ -19,7 +19,8 @@
 }
 
 h1 {
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
   color: #000;
 
   /* Headline 2 */
@@ -45,6 +46,7 @@ h1 {
 
 .hero-btn {
   max-width: 410px;
+  width: 100%;
 }
 
 /* Styles for Tablet devices */
@@ -57,7 +59,7 @@ h1 {
   }
 
   h1 {
-    width: 591px;
+    max-width: 591px;
   }
 }
 /* Styles for Desktop devices */
@@ -73,6 +75,6 @@ h1 {
     max-width: 500px;
   }
   h1 {
-    width: 500px;
+    max-width: 500px;
   }
 }

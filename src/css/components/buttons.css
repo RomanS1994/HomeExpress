@@ -43,7 +43,8 @@
 
 .btn-more {
   display: flex;
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
   height: 62px;
   padding: 16px 32px;
   justify-content: center;
