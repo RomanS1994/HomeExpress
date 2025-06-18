@@ -1,6 +1,7 @@
 .btn {
   display: flex;
   width: 400px;
+  height: 62px;
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
@@ -42,7 +43,7 @@
 
 .btn-more {
   display: flex;
-  width: 400px;
+  width: 410px;
   height: 62px;
   padding: 16px 32px;
   justify-content: center;
