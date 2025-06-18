@@ -10,8 +10,9 @@ header {
   height: 78px;
 }
 
-.logo {
-  margin-right: 77px;
+.logo-img {
+  height: 78px;
+  border-radius: 12px;
 }
 .nav-list {
   display: none;

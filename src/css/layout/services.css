@@ -22,8 +22,9 @@
   align-items: flex-start;
   justify-content: space-between;
 
-  width: 680px;
-  height: 344px;
+  width: 410px;
+  height: 452px;
+
   padding: 32px;
 
   border-radius: 32px;
@@ -65,7 +66,14 @@
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
+  .service-item {
+    width: 794px;
+    height: 344px;
+  }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1380px) {
+  .service-item {
+    width: 680px;
+  }
 }

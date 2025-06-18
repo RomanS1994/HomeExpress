@@ -6,14 +6,14 @@
 }
 .cta-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
 }
 .cta-box {
   display: flex;
-  width: 680px;
-  height: 582px;
-  padding: 56px;
+  width: 410px;
+  padding: 40px 20px;
+
   flex-direction: column;
 
   flex-shrink: 0;
@@ -102,7 +102,7 @@
 }
 .img-box {
   padding: 0;
-  width: 680px;
+  width: 410px;
   height: 582px;
   background-image: image-set(
     url(/img/gesktop/cta.jpg) 1x,
@@ -116,7 +116,25 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 790px) {
+  .img-box {
+    width: 794px;
+  }
+  .cta-box {
+    width: 794px;
+    padding: 56px;
+  }
+
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1380px) {
+  .cta-box {
+    width: 680px;
+  }
+  .cta-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img-box {
+    width: 680px;
+  }
 }
