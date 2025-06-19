@@ -17,6 +17,8 @@
 
 /* Sections style */
 @import url("./layout/header.css");
+@import url("./layout/burgerMenu.css");
+
 @import url("./layout/hero.css");
 @import url("./layout/about.css");
 /* @import url("./layout/certificates.css"); */

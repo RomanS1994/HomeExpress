@@ -1,0 +1,117 @@
+/* Overlay */
+.mobile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 360px;
+  width: 100%;
+
+  background: #0047d3;
+  padding: 24px;
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+
+  transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.mobile-menu.closing {
+  transform: translateX(100%);
+  opacity: 0;
+  visibility: hidden;
+}
+.mobile-overlay.closing {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mobile-menu.open,
+.mobile-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-mobile-menu {
+  font-size: 32px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.mobile-nav-link {
+  display: block;
+  font-family: var(--font-Inner);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.72px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeSlideIn 0.4s ease forwards;
+}
+
+.mobile-nav-link:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.mobile-nav-link:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.mobile-nav-link:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
