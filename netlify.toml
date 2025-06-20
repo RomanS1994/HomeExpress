@@ -1,4 +1,5 @@
 [build]
+  command = "npm install --legacy-peer-deps --no-audit --no-fund && npm run build"
   publish = "dist"  
 
 [[redirects]]
@@ -24,4 +25,3 @@
   to = "/ru/"
   status = 302
   conditions = { Language = ["ru"] }
-
