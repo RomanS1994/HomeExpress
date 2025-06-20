@@ -18,7 +18,6 @@ export default defineConfig(({ command }) => {
       emptyOutDir: true,
       rollupOptions: {
         input: {
-          main: resolve(__dirname, "src/index.html"),
           uk: resolve(__dirname, "src/uk/index.html"),
           en: resolve(__dirname, "src/en/index.html"),
           ru: resolve(__dirname, "src/ru/index.html"),
