@@ -27,3 +27,6 @@
 @import url("./layout/projects.css");
 @import url("./layout/services.css");
 @import url("./layout/footer.css");
+
+/* cta-modal*/
+@import url("./layout/cta-modal.css");

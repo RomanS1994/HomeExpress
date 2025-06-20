@@ -1,0 +1,116 @@
+/* Styles for Mobile devices */
+.feedback-modal {
+  background: transparent;
+}
+
+.cta-container-feedback {
+  background-image: image-set(
+    url(/img/gesktop/feeback.jpg) 1x,
+    url(/img/gesktop/feeback@2x.jpg)
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+  max-width: 410px;
+  padding: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.2);
+  transition: left 0.4s ease;
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+.cta-box-feedback {
+  position: relative;
+}
+.close-feedback-modal {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 32px;
+  height: 32px;
+
+  font-size: 32px;
+  color: white;
+  background: none;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.close-feedback-modal:hover {
+  border: 2px solid var(--lemon);
+}
+
+.cta-feedback-modal {
+  background: transparent;
+}
+.modal.open {
+  left: 0;
+}
+
+.modal-close {
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.modal-content {
+  padding: 40px 20px;
+}
+
+.modal-contacts {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.modal-contacts-description {
+  color: var(--white);
+
+  /* Body 20 SemiBold */
+  font-family: var(--font-Inter);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.6px;
+}
+.modal-contacts-tel {
+  color: var(--white);
+
+  /* Body 18 Light */
+  font-family: var(--font-Inter);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.18px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 790px) {
+  .cta-container-feedback {
+    max-width: 100%;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1380px) {
+  .cta-container-feedback {
+    max-width: 100%;
+  }
+}

@@ -72,7 +72,7 @@
 }
 
 .form-input:focus {
-  color: var(--Secondary-20, #fae8a6);
+  color: var(--Secondary-50, #fae8a6);
 }
 
 .form-input::placeholder {

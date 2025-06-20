@@ -15,8 +15,6 @@ function closeMenu() {
 }
 
 burgerBtn.addEventListener("click", () => {
-  console.log("click");
-
   mobileMenu.classList.add("open");
   mobileOverlay.classList.add("open");
 });
