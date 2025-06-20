@@ -1,43 +1,65 @@
 <!-- Modal  Uk-->
-<div id="feedback-modal" class="modal feedback-modal container">
+<div
+  id="feedback-modal"
+  class="modal feedback-modal container"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-title"
+  aria-describedby="modal-desc"
+>
   <section id="cta" class="cta cta-feedback-modal">
     <div class="container cta-container-feedback">
       <div class="cta-box cta-box-feedback">
-        <button class="close-feedback-modal" id="modal-close" type="button">
+        <button
+          class="close-feedback-modal"
+          id="modal-close"
+          type="button"
+          aria-label="Закрити модальне вікно"
+        >
           <svg class="close-feedback-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#close"></use>
           </svg>
         </button>
-        <h3 class="cta-title">
+
+        <h3 class="cta-title" id="modal-title">
           Бажаєте дізнатися про доступні пропозиції просто зараз?
         </h3>
 
-        <p class="cta-description">
+        <p class="cta-description" id="modal-desc">
           Залиште нам номер телефону, ми зв’яжемось із вами найближчим часом!
         </p>
+
         <form class="cta-form" netlify>
           <input
             type="text"
             name="name"
             class="form-input"
             placeholder="Ваше ім’я"
+            aria-label="Ваше ім’я"
           />
           <input
             type="tel"
             name="phone"
             class="form-input"
             placeholder="Телефон"
+            aria-label="Ваш номер телефону"
           />
-          <button type="submit" class="btn btn-submit">
+          <button
+            type="submit"
+            class="btn btn-submit"
+            aria-label="Замовити дзвінок"
+          >
             Замовити дзвінок
             <svg class="btn-call-svg" width="24" height="24">
               <use href="/img/svg/main_sprite.svg#arrow" />
             </svg>
           </button>
         </form>
+
         <p class="cta-helper">
           *Натискаючи кнопку ви надаєте згоду на обробку персональних даних
         </p>
+
         <div class="modal-contacts">
           <p class="modal-contacts-description">
             Або зателефонуйте самостійно:

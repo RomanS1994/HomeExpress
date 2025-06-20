@@ -1,27 +1,40 @@
 <!-- Call to Action Section - Czech -->
-<section id="cta" class="cta">
+<section id="cta" class="cta" aria-label="Sekce výzvy k akci">
   <div class="container cta-container">
     <div class="cta-box">
-      <h3 class="cta-title">Chcete znát dostupné nabídky hned teď?</h3>
-      <p class="cta-description">
+      <h3 class="cta-title" id="cta-title">
+        Chcete znát dostupné nabídky hned teď?
+      </h3>
+      <p class="cta-description" id="cta-description">
         Nechte nám své telefonní číslo a brzy se vám ozveme!
       </p>
-      <form class="cta-form" netlify>
+      <form
+        class="cta-form"
+        netlify
+        aria-labelledby="cta-title"
+        aria-describedby="cta-description"
+      >
         <input
           type="text"
           name="name"
           class="form-input"
           placeholder="Vaše jméno"
+          aria-label="Vaše jméno"
         />
         <input
           type="tel"
           name="phone"
           class="form-input"
           placeholder="Telefon"
+          aria-label="Telefonní číslo"
         />
-        <button type="submit" class="btn btn-submit">
+        <button
+          type="submit"
+          class="btn btn-submit"
+          aria-label="Odeslat telefonní číslo pro zpětné volání"
+        >
           Zavolejte mi
-          <svg class="btn-call-svg" width="24" height="24">
+          <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>
@@ -30,6 +43,6 @@
         *Kliknutím na tlačítko souhlasíte se zpracováním osobních údajů
       </p>
     </div>
-    <div class="img-box"></div>
+    <div class="img-box" aria-hidden="true"></div>
   </div>
 </section>

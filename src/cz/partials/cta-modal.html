@@ -1,43 +1,70 @@
 <!-- Modal CZ -->
-<div id="feedback-modal" class="modal feedback-modal container">
+<div
+  id="feedback-modal"
+  class="modal feedback-modal container"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-title"
+  aria-describedby="modal-description"
+>
   <section id="cta" class="cta cta-feedback-modal">
     <div class="container cta-container-feedback">
       <div class="cta-box cta-box-feedback">
-        <button class="close-feedback-modal" id="modal-close" type="button">
-          <svg class="close-feedback-svg" width="24" height="24">
+        <button
+          class="close-feedback-modal"
+          id="modal-close"
+          type="button"
+          aria-label="Zavřít formulář zpětného volání"
+        >
+          <svg
+            class="close-feedback-svg"
+            width="24"
+            height="24"
+            aria-hidden="true"
+          >
             <use href="/img/svg/main_sprite.svg#close"></use>
           </svg>
         </button>
-        <h3 class="cta-title">
+
+        <h3 class="cta-title" id="modal-title">
           Chcete vědět o dostupných nabídkách právě teď?
         </h3>
-        <p class="cta-description">
+        <p class="cta-description" id="modal-description">
           Zanechte nám své telefonní číslo a my se vám brzy ozveme!
         </p>
-        <form class="cta-form" netlify>
+
+        <form class="cta-form" netlify aria-label="Formulář pro zpětné volání">
           <input
             type="text"
             name="name"
             class="form-input"
             placeholder="Vaše jméno"
+            aria-label="Vaše jméno"
           />
           <input
             type="tel"
             name="phone"
             class="form-input"
             placeholder="Telefon"
+            aria-label="Telefonní číslo"
           />
-          <button type="submit" class="btn btn-submit">
+          <button
+            type="submit"
+            class="btn btn-submit"
+            aria-label="Odeslat telefonní číslo pro zpětné volání"
+          >
             Zavolejte mi
-            <svg class="btn-call-svg" width="24" height="24">
+            <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
               <use href="/img/svg/main_sprite.svg#arrow" />
             </svg>
           </button>
         </form>
+
         <p class="cta-helper">
           *Kliknutím na tlačítko souhlasíte se zpracováním osobních údajů.
         </p>
-        <div class="modal-contacts">
+
+        <div class="modal-contacts" aria-label="Kontaktní telefonní čísla">
           <p class="modal-contacts-description">Nebo nám zavolejte přímo:</p>
           <p class="modal-contacts-tel">+38 (097) 123 12 12 (Kyivstar)</p>
           <p class="modal-contacts-tel">+38 (066) 123 12 12 (Vodafone)</p>

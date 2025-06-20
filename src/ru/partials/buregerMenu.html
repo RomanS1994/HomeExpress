@@ -1,46 +1,83 @@
-<!-- Overlay + Mobile Menu  Uk-->
-<div id="mobile-overlay" class="mobile-overlay"></div>
+<!-- Overlay + Mobile Menu  Ru -->
+<div id="mobile-overlay" class="mobile-overlay" aria-hidden="true"></div>
 
-<div class="mobile-menu" id="mobile-menu">
+<div class="mobile-menu" id="mobile-menu" aria-label="Мобильное меню">
   <div class="mobile-menu-header">
     <img class="logo-img" src="/img/svg/logo.svg" alt="HomeExpress logo" />
-    <button class="close-mobile-menu" id="close-mobile-menu">&times;</button>
+    <button
+      class="close-mobile-menu"
+      id="close-mobile-menu"
+      aria-label="Закрыть меню"
+    >
+      &times;
+    </button>
   </div>
 
   <ul class="mobile-nav-list">
-    <li><a href="#projects" class="mobile-nav-link">Наши проекты</a></li>
-    <li><a href="#services" class="mobile-nav-link">Услуги</a></li>
-    <li><a href="#certificates" class="mobile-nav-link">Сертификаты</a></li>
+    <li>
+      <a
+        href="#projects"
+        class="mobile-nav-link"
+        aria-label="Перейти к разделу Наши проекты"
+        >Наши проекты</a
+      >
+    </li>
+    <li>
+      <a
+        href="#services"
+        class="mobile-nav-link"
+        aria-label="Перейти к разделу Услуги"
+        >Услуги</a
+      >
+    </li>
+    <li>
+      <a
+        href="#certificates"
+        class="mobile-nav-link"
+        aria-label="Перейти к разделу Сертификаты"
+        >Сертификаты</a
+      >
+    </li>
   </ul>
 
   <div class="lang-dropdown">
-    <button class="lang-toggle" id="lang-toggle-burger">
+    <button
+      class="lang-toggle"
+      id="lang-toggle-burger"
+      aria-label="Выбрать язык"
+    >
       <img src="/img/language/ru.png" alt="ru" width="24" height="24" />
       <span class="footer-lang-selected">Русский</span>
       <svg class="footer-arr-down-svg" width="24" height="24">
         <use href="/img/svg/main_sprite.svg#arrow-down"></use>
       </svg>
     </button>
-    <ul class="lang-menu" id="lang-menu-burger">
+    <ul class="lang-menu" id="lang-menu-burger" aria-label="Меню выбора языка">
       <li>
-        <a href="/ua/index.html"
-          ><img src="/img/language/uk.png" alt="ua" /> Українська</a
+        <a
+          href="/ua/index.html"
+          aria-label="Перейти на Украинскую версию сайта"
         >
+          <img src="/img/language/uk.png" alt="ua" /> Українська
+        </a>
       </li>
       <li>
-        <a href="/en/index.html"
-          ><img src="/img/language/en.png" alt="en" /> English</a
+        <a
+          href="/en/index.html"
+          aria-label="Перейти на Английскую версию сайта"
         >
+          <img src="/img/language/en.png" alt="en" /> English
+        </a>
       </li>
       <li>
-        <a href="/cz/index.html"
-          ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
-        >
+        <a href="/cz/index.html" aria-label="Перейти на Чешскую версию сайта">
+          <img src="/img/language/cz.png" alt="cz" /> Čeština
+        </a>
       </li>
     </ul>
   </div>
 
-  <button class="btn btn-call">
+  <button class="btn btn-call" aria-label="Заказать звонок">
     Заказать звонок
     <svg class="btn-call-svg" width="24" height="24">
       <use href="/img/svg/main_sprite.svg#arrow" />

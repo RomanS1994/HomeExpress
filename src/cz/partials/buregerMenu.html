@@ -1,48 +1,90 @@
-<!-- Overlay + Mobile Menu  Uk-->
-<div id="mobile-overlay" class="mobile-overlay"></div>
+<!-- Overlay + Mobile Menu Uk -->
+<div id="mobile-overlay" class="mobile-overlay" aria-hidden="true"></div>
 
-<div class="mobile-menu" id="mobile-menu">
+<div
+  class="mobile-menu"
+  id="mobile-menu"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Mobilní navigační menu"
+>
   <div class="mobile-menu-header">
     <img class="logo-img" src="/img/svg/logo.svg" alt="HomeExpress logo" />
-    <button class="close-mobile-menu" id="close-mobile-menu">&times;</button>
+    <button
+      class="close-mobile-menu"
+      id="close-mobile-menu"
+      aria-label="Zavřít mobilní menu"
+    >
+      &times;
+    </button>
   </div>
 
-  <ul class="mobile-nav-list">
-    <li><a href="#projects" class="mobile-nav-link">Naše projekty</a></li>
-    <li><a href="#services" class="mobile-nav-link">Služby</a></li>
-    <li><a href="#certificates" class="mobile-nav-link">Certifikáty</a></li>
+  <ul class="mobile-nav-list" aria-label="Mobilní navigace">
+    <li>
+      <a
+        href="#projects"
+        class="mobile-nav-link"
+        aria-label="Přejít na sekci Naše projekty"
+        >Naše projekty</a
+      >
+    </li>
+    <li>
+      <a
+        href="#services"
+        class="mobile-nav-link"
+        aria-label="Přejít na sekci Služby"
+        >Služby</a
+      >
+    </li>
+    <li>
+      <a
+        href="#certificates"
+        class="mobile-nav-link"
+        aria-label="Přejít na sekci Certifikáty"
+        >Certifikáty</a
+      >
+    </li>
   </ul>
 
-  <div class="lang-dropdown">
-    <button class="lang-toggle" id="lang-toggle-burger">
+  <div class="lang-dropdown" aria-label="Výběr jazyka">
+    <button
+      class="lang-toggle"
+      id="lang-toggle-burger"
+      aria-label="Aktuální jazyk: Čeština. Otevřít výběr jazyka"
+    >
       <img src="/img/language/cz.png" alt="cz" width="24" height="24" />
       <span class="footer-lang-selected">Čeština</span>
-      <svg class="footer-arr-down-svg" width="24" height="24">
+      <svg
+        class="footer-arr-down-svg"
+        width="24"
+        height="24"
+        aria-hidden="true"
+      >
         <use href="/img/svg/main_sprite.svg#arrow-down"></use>
       </svg>
     </button>
-    <ul class="lang-menu" id="lang-menu-burger">
+    <ul class="lang-menu" id="lang-menu-burger" aria-label="Možnosti jazyků">
       <li>
-        <a href="/ua/index.html"
-          ><img src="/img/language/uk.png" alt="ua" /> Українська</a
-        >
+        <a href="/ua/index.html" aria-label="Přepnout na ukrajinštinu">
+          <img src="/img/language/uk.png" alt="ua" /> Українська
+        </a>
       </li>
       <li>
-        <a href="/en/index.html"
-          ><img src="/img/language/en.png" alt="en" /> English</a
-        >
+        <a href="/en/index.html" aria-label="Přepnout na angličtinu">
+          <img src="/img/language/en.png" alt="en" /> English
+        </a>
       </li>
       <li>
-        <a href="/ru/index.html"
-          ><img src="/img/language/ru.png" alt="ru" /> Русский</a
-        >
+        <a href="/ru/index.html" aria-label="Přepnout na ruštinu">
+          <img src="/img/language/ru.png" alt="ru" /> Русский
+        </a>
       </li>
     </ul>
   </div>
 
-  <button class="btn btn-call">
+  <button class="btn btn-call" aria-label="Požádat o zpětné volání">
     Zavolejte mi
-    <svg class="btn-call-svg" width="24" height="24">
+    <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
       <use href="/img/svg/main_sprite.svg#arrow" />
     </svg>
   </button>

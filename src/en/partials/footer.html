@@ -1,5 +1,5 @@
 <!-- Footer - English -->
-<footer class="footer">
+<footer class="footer" aria-label="Website footer">
   <div class="container footer-container">
     <div class="footer-content">
       <div class="footer-logo-block">
@@ -15,43 +15,80 @@
           HomeExpress is not just a name. It's an approach.
         </p>
       </div>
-      <nav class="footer-nav">
+
+      <nav class="footer-nav" aria-label="Footer navigation">
         <ul class="footer-nav-list">
-          <li><a href="#projects" class="footer-link">Our Projects</a></li>
-          <li><a href="#services" class="footer-link">Services</a></li>
-          <li><a href="#certificates" class="footer-link">Certificates</a></li>
+          <li>
+            <a
+              href="#projects"
+              class="footer-link"
+              aria-label="Go to Our Projects section"
+              >Our Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="footer-link"
+              aria-label="Go to Services section"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#certificates"
+              class="footer-link"
+              aria-label="Go to Certificates section"
+              >Certificates</a
+            >
+          </li>
         </ul>
       </nav>
-      <div class="lang-dropdown">
-        <button class="lang-toggle" id="lang-toggle-footer">
+
+      <div class="lang-dropdown" aria-label="Footer language selector">
+        <button
+          class="lang-toggle"
+          id="lang-toggle-footer"
+          aria-label="Current language: English. Open language selection menu"
+        >
           <img src="/img/language/en.png" alt="en" width="24" height="24" />
           <span class="footer-lang-selected">English</span>
-          <svg class="footer-arr-down-svg" width="24" height="24">
+          <svg
+            class="footer-arr-down-svg"
+            width="24"
+            height="24"
+            aria-hidden="true"
+          >
             <use href="/img/svg/main_sprite.svg#arrow-down"></use>
           </svg>
         </button>
-        <ul class="lang-menu" id="lang-menu-footer">
+        <ul
+          class="lang-menu"
+          id="lang-menu-footer"
+          aria-label="Language options"
+        >
           <li>
-            <a href="/uk/index.html"
-              ><img src="/img/language/uk.png" alt="uk" /> Українська</a
-            >
+            <a href="/uk/index.html" aria-label="Switch to Ukrainian">
+              <img src="/img/language/uk.png" alt="uk" /> Українська
+            </a>
           </li>
           <li>
-            <a href="/cz/index.html"
-              ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
-            >
+            <a href="/cz/index.html" aria-label="Switch to Czech">
+              <img src="/img/language/cz.png" alt="cz" /> Čeština
+            </a>
           </li>
           <li>
-            <a href="/ru/index.html"
-              ><img src="/img/language/ru.png" alt="ru" /> Русский</a
-            >
+            <a href="/ru/index.html" aria-label="Switch to Russian">
+              <img src="/img/language/ru.png" alt="ru" /> Русский
+            </a>
           </li>
         </ul>
       </div>
+
       <div class="footer-actions">
-        <button class="btn btn-call btn-footer">
+        <button class="btn btn-call btn-footer" aria-label="Request a callback">
           Request a Call
-          <svg class="btn-call-svg" width="24" height="24">
+          <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>

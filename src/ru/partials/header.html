@@ -1,57 +1,73 @@
 <!-- Header -Russian-->
-<header>
+<header aria-label="Верхняя панель навигации">
   <div class="container">
-    <nav class="nav">
+    <nav class="nav" aria-label="Основная навигация">
       <div class="logo">
-        <img class="logo-img" src="/img/svg/logo.svg" alt="HomeExpress logo" />
+        <img
+          class="logo-img"
+          src="/img/svg/logo.svg"
+          alt="Логотип HomeExpress"
+        />
       </div>
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="#projects" class="nav-link">Наши проекты</a>
+          <a href="#projects" class="nav-link" aria-label="Наши проекты"
+            >Наши проекты</a
+          >
         </li>
         <li class="nav-item">
-          <a href="#services" class="nav-link">Услуги</a>
+          <a href="#services" class="nav-link" aria-label="Услуги">Услуги</a>
         </li>
         <li class="nav-item">
-          <a href="#certificates" class="nav-link">Сертификаты</a>
+          <a href="#certificates" class="nav-link" aria-label="Сертификаты"
+            >Сертификаты</a
+          >
         </li>
       </ul>
       <div class="header-actions">
-        <button class="btn btn-call">
+        <button class="btn btn-call" aria-label="Заказать обратный звонок">
           Заказать звонок
           <svg class="btn-call-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>
 
-        <div class="lang-dropdown">
-          <button class="lang-toggle" id="lang-toggle">
+        <div class="lang-dropdown" aria-label="Выбор языка">
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Текущий язык: Русский. Открыть меню языков"
+          >
             <img src="/img/language/ru.png" alt="ru" />
             <span class="lang-selected">Русский</span>
             <svg class="arr-down-svg" width="24" height="24">
               <use href="/img/svg/main_sprite.svg#arrow-down"></use>
             </svg>
           </button>
-          <ul class="lang-menu" id="lang-menu">
+          <ul class="lang-menu" id="lang-menu" aria-label="Меню языков">
             <li>
-              <a href="/uk/index.html"
-                ><img src="/img/language/uk.png" alt="ua" /> Українська</a
-              >
+              <a href="/uk/index.html" aria-label="Переключиться на украинский">
+                <img src="/img/language/uk.png" alt="ua" /> Українська
+              </a>
             </li>
             <li>
-              <a href="/en/index.html"
-                ><img src="/img/language/en.png" alt="en" /> English</a
-              >
+              <a href="/en/index.html" aria-label="Переключиться на английский">
+                <img src="/img/language/en.png" alt="en" /> English
+              </a>
             </li>
             <li>
-              <a href="/cz/index.html"
-                ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
-              >
+              <a href="/cz/index.html" aria-label="Переключиться на чешский">
+                <img src="/img/language/cz.png" alt="cz" /> Čeština
+              </a>
             </li>
           </ul>
         </div>
       </div>
-      <button class="burger-btn" type="button">
+      <button
+        class="burger-btn"
+        type="button"
+        aria-label="Открыть мобильное меню"
+      >
         <svg class="arr-down-svg" width="24" height="24">
           <use href="/img/svg/main_sprite.svg#Burger"></use>
         </svg>

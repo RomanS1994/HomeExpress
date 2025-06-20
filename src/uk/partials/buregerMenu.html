@@ -4,7 +4,14 @@
 <div class="mobile-menu" id="mobile-menu">
   <div class="mobile-menu-header">
     <img class="logo-img" src="/img/svg/logo.svg" alt="HomeExpress logo" />
-    <button class="close-mobile-menu" id="close-mobile-menu">&times;</button>
+
+    <button
+      class="close-mobile-menu"
+      id="close-mobile-menu"
+      aria-label="Закрити мобільне меню"
+    >
+      &times;
+    </button>
   </div>
 
   <ul class="mobile-nav-list">
@@ -14,33 +21,40 @@
   </ul>
 
   <div class="lang-dropdown">
-    <button class="lang-toggle" id="lang-toggle-burger">
+    <button
+      class="lang-toggle"
+      id="lang-toggle-burger"
+      aria-label="Змінити мову сайту"
+      aria-expanded="false"
+      aria-controls="lang-menu-burger"
+    >
       <img src="/img/language/uk.png" alt="ua" width="24" height="24" />
       <span class="footer-lang-selected">Українська</span>
       <svg class="footer-arr-down-svg" width="24" height="24">
         <use href="/img/svg/main_sprite.svg#arrow-down"></use>
       </svg>
     </button>
+
     <ul class="lang-menu" id="lang-menu-burger">
       <li>
-        <a href="/en/index.html"
-          ><img src="/img/language/en.png" alt="en" /> English</a
-        >
+        <a href="/en/index.html">
+          <img src="/img/language/en.png" alt="en" /> English
+        </a>
       </li>
       <li>
-        <a href="/cz/index.html"
-          ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
-        >
+        <a href="/cz/index.html">
+          <img src="/img/language/cz.png" alt="cz" /> Čeština
+        </a>
       </li>
       <li>
-        <a href="/ru/index.html"
-          ><img src="/img/language/ru.png" alt="ru" /> Русский</a
-        >
+        <a href="/ru/index.html">
+          <img src="/img/language/ru.png" alt="ru" /> Русский
+        </a>
       </li>
     </ul>
   </div>
 
-  <button class="btn btn-call">
+  <button class="btn btn-call" aria-label="Замовити зворотний дзвінок">
     Замовити дзвінок
     <svg class="btn-call-svg" width="24" height="24">
       <use href="/img/svg/main_sprite.svg#arrow" />

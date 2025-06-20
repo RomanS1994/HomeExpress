@@ -1,48 +1,89 @@
-<!-- Overlay + Mobile Menu  En-->
-<div id="mobile-overlay" class="mobile-overlay"></div>
+<!-- Overlay + Mobile Menu En-->
+<div id="mobile-overlay" class="mobile-overlay" aria-hidden="true"></div>
 
-<div class="mobile-menu" id="mobile-menu">
+<div
+  class="mobile-menu"
+  id="mobile-menu"
+  role="dialog"
+  aria-label="Mobile navigation menu"
+>
   <div class="mobile-menu-header">
     <img class="logo-img" src="/img/svg/logo.svg" alt="HomeExpress logo" />
-    <button class="close-mobile-menu" id="close-mobile-menu">&times;</button>
+    <button
+      class="close-mobile-menu"
+      id="close-mobile-menu"
+      aria-label="Close mobile menu"
+    >
+      &times;
+    </button>
   </div>
 
-  <ul class="mobile-nav-list">
-    <li><a href="#projects" class="mobile-nav-link">Our Projects</a></li>
-    <li><a href="#services" class="mobile-nav-link">Services</a></li>
-    <li><a href="#certificates" class="mobile-nav-link">Certificates</a></li>
+  <ul class="mobile-nav-list" aria-label="Mobile site navigation">
+    <li>
+      <a
+        href="#projects"
+        class="mobile-nav-link"
+        aria-label="Go to Our Projects section"
+        >Our Projects</a
+      >
+    </li>
+    <li>
+      <a
+        href="#services"
+        class="mobile-nav-link"
+        aria-label="Go to Services section"
+        >Services</a
+      >
+    </li>
+    <li>
+      <a
+        href="#certificates"
+        class="mobile-nav-link"
+        aria-label="Go to Certificates section"
+        >Certificates</a
+      >
+    </li>
   </ul>
 
-  <div class="lang-dropdown">
-    <button class="lang-toggle" id="lang-toggle-burger">
+  <div class="lang-dropdown" aria-label="Language selection menu">
+    <button
+      class="lang-toggle"
+      id="lang-toggle-burger"
+      aria-label="Current language: English. Open language selection menu"
+    >
       <img src="/img/language/en.png" alt="en" width="24" height="24" />
       <span class="footer-lang-selected">English</span>
-      <svg class="footer-arr-down-svg" width="24" height="24">
+      <svg
+        class="footer-arr-down-svg"
+        width="24"
+        height="24"
+        aria-hidden="true"
+      >
         <use href="/img/svg/main_sprite.svg#arrow-down"></use>
       </svg>
     </button>
-    <ul class="lang-menu" id="lang-menu-burger">
+    <ul class="lang-menu" id="lang-menu-burger" aria-label="Language options">
       <li>
-        <a href="/ua/index.html"
-          ><img src="/img/language/uk.png" alt="ua" /> Українська</a
-        >
+        <a href="/ua/index.html" aria-label="Switch to Ukrainian">
+          <img src="/img/language/uk.png" alt="ua" /> Українська
+        </a>
       </li>
       <li>
-        <a href="/cz/index.html"
-          ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
-        >
+        <a href="/cz/index.html" aria-label="Switch to Czech">
+          <img src="/img/language/cz.png" alt="cz" /> Čeština
+        </a>
       </li>
       <li>
-        <a href="/ru/index.html"
-          ><img src="/img/language/ru.png" alt="ru" /> Русский</a
-        >
+        <a href="/ru/index.html" aria-label="Switch to Russian">
+          <img src="/img/language/ru.png" alt="ru" /> Русский
+        </a>
       </li>
     </ul>
   </div>
 
-  <button class="btn btn-call">
+  <button class="btn btn-call" aria-label="Request a callback">
     Request a Call
-    <svg class="btn-call-svg" width="24" height="24">
+    <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
       <use href="/img/svg/main_sprite.svg#arrow" />
     </svg>
   </button>

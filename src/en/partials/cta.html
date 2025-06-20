@@ -1,27 +1,40 @@
 <!-- Call to Action Section - English -->
-<section id="cta" class="cta">
+<section id="cta" class="cta" aria-label="Call to Action section">
   <div class="container cta-container">
     <div class="cta-box">
-      <h3 class="cta-title">Want to hear about available offers right now?</h3>
-      <p class="cta-description">
+      <h3 class="cta-title" id="cta-title">
+        Want to hear about available offers right now?
+      </h3>
+      <p class="cta-description" id="cta-description">
         Leave us your phone number and we’ll get in touch with you shortly!
       </p>
-      <form class="cta-form" netlify>
+      <form
+        class="cta-form"
+        netlify
+        aria-labelledby="cta-title"
+        aria-describedby="cta-description"
+      >
         <input
           type="text"
           name="name"
           class="form-input"
           placeholder="Your name"
+          aria-label="Your name"
         />
         <input
           type="tel"
           name="phone"
           class="form-input"
           placeholder="Phone number"
+          aria-label="Phone number"
         />
-        <button type="submit" class="btn btn-submit">
+        <button
+          type="submit"
+          class="btn btn-submit"
+          aria-label="Submit phone number to request a call"
+        >
           Request a call
-          <svg class="btn-call-svg" width="24" height="24">
+          <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>
@@ -30,6 +43,6 @@
         *By clicking the button, you consent to the processing of personal data
       </p>
     </div>
-    <div class="img-box"></div>
+    <div class="img-box" aria-hidden="true"></div>
   </div>
 </section>

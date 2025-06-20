@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer" aria-label="Zápatí webové stránky">
   <div class="container footer-container">
     <div class="footer-content">
       <div class="footer-logo-block">
@@ -6,7 +6,7 @@
           <img
             class="logo-img footer-logo"
             src="/img/svg/logo.svg"
-            alt="HomeExpress logo"
+            alt="Logo HomeExpress"
           />
         </div>
         <p class="footer-description">
@@ -14,43 +14,86 @@
           název. Je to přístup.
         </p>
       </div>
-      <nav class="footer-nav">
+
+      <nav class="footer-nav" aria-label="Navigace v zápatí">
         <ul class="footer-nav-list">
-          <li><a href="#projects" class="footer-link">Naše projekty</a></li>
-          <li><a href="#services" class="footer-link">Služby</a></li>
-          <li><a href="#certificates" class="footer-link">Certifikáty</a></li>
+          <li>
+            <a
+              href="#projects"
+              class="footer-link"
+              aria-label="Přejít na sekci Naše projekty"
+            >
+              Naše projekty
+            </a>
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="footer-link"
+              aria-label="Přejít na sekci Služby"
+            >
+              Služby
+            </a>
+          </li>
+          <li>
+            <a
+              href="#certificates"
+              class="footer-link"
+              aria-label="Přejít na sekci Certifikáty"
+            >
+              Certifikáty
+            </a>
+          </li>
         </ul>
       </nav>
-      <div class="lang-dropdown">
-        <button class="lang-toggle" id="lang-toggle-footer">
+
+      <div class="lang-dropdown" aria-label="Výběr jazyka">
+        <button
+          class="lang-toggle"
+          id="lang-toggle-footer"
+          aria-label="Aktuální jazyk: Čeština. Otevřít nabídku jazyků"
+        >
           <img src="/img/language/cz.png" alt="cz" width="24" height="24" />
           <span class="footer-lang-selected">Čeština</span>
-          <svg class="footer-arr-down-svg" width="24" height="24">
+          <svg
+            class="footer-arr-down-svg"
+            width="24"
+            height="24"
+            aria-hidden="true"
+          >
             <use href="/img/svg/main_sprite.svg#arrow-down"></use>
           </svg>
         </button>
-        <ul class="lang-menu" id="lang-menu-footer">
+        <ul
+          class="lang-menu"
+          id="lang-menu-footer"
+          aria-label="Možnosti jazyků"
+        >
           <li>
-            <a href="/en/index.html"
-              ><img src="/img/language/en.png" alt="en" /> English</a
-            >
+            <a href="/en/index.html" aria-label="Přepnout na angličtinu">
+              <img src="/img/language/en.png" alt="en" /> English
+            </a>
           </li>
           <li>
-            <a href="/uk/index.html"
-              ><img src="/img/language/uk.png" alt="ua" /> Ukrajinština</a
-            >
+            <a href="/uk/index.html" aria-label="Přepnout na ukrajinštinu">
+              <img src="/img/language/uk.png" alt="ua" /> Ukrajinština
+            </a>
           </li>
           <li>
-            <a href="/ru/index.html"
-              ><img src="/img/language/ru.png" alt="ru" /> Ruština</a
-            >
+            <a href="/ru/index.html" aria-label="Přepnout na ruštinu">
+              <img src="/img/language/ru.png" alt="ru" /> Ruština
+            </a>
           </li>
         </ul>
       </div>
+
       <div class="footer-actions">
-        <button class="btn btn-call btn-footer">
+        <button
+          class="btn btn-call btn-footer"
+          aria-label="Požádat o zpětné volání"
+        >
           Zavolat
-          <svg class="btn-call-svg" width="24" height="24">
+          <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>

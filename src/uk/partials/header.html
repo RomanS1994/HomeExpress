@@ -17,14 +17,20 @@
         </li>
       </ul>
       <div class="header-actions">
-        <button class="btn btn-call">
+        <button class="btn btn-call" aria-label="Замовити зворотний дзвінок">
           Замовити дзвінок
           <svg class="btn-call-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>
         <div class="lang-dropdown">
-          <button class="lang-toggle" id="lang-toggle">
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Змінити мову сайту"
+            aria-expanded="false"
+            aria-controls="lang-menu"
+          >
             <img src="/img/language/uk.png" alt="ua" width="24" height="24" />
             <span class="lang-selected">Українська</span>
             <svg class="arr-down-svg" width="24" height="24">
@@ -50,7 +56,11 @@
           </ul>
         </div>
       </div>
-      <button class="burger-btn" type="button">
+      <button
+        class="burger-btn"
+        type="button"
+        aria-label="Відкрити мобільне меню"
+      >
         <svg class="arr-down-svg" width="24" height="24">
           <use href="/img/svg/main_sprite.svg#Burger"></use>
         </svg>

@@ -1,5 +1,5 @@
 <!-- Footer -Russian-->
-<footer class="footer">
+<footer class="footer" aria-label="Футер сайта">
   <div class="container footer-container">
     <div class="footer-content">
       <div class="footer-logo-block">
@@ -7,7 +7,7 @@
           <img
             class="logo-img footer-logo"
             src="/img/svg/logo.svg"
-            alt="HomeExpress logo"
+            alt="Логотип HomeExpress"
           />
         </div>
         <p class="footer-description">
@@ -15,41 +15,76 @@
           это не просто название. Это подход.
         </p>
       </div>
-      <nav class="footer-nav">
+      <nav class="footer-nav" aria-label="Навигация в футере">
         <ul class="footer-nav-list">
-          <li><a href="#projects" class="footer-link">Наши проекты</a></li>
-          <li><a href="#services" class="footer-link">Услуги</a></li>
-          <li><a href="#certificates" class="footer-link">Сертификаты</a></li>
+          <li>
+            <a
+              href="#projects"
+              class="footer-link"
+              aria-label="Ссылка на раздел Наши проекты"
+              >Наши проекты</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="footer-link"
+              aria-label="Ссылка на раздел Услуги"
+              >Услуги</a
+            >
+          </li>
+          <li>
+            <a
+              href="#certificates"
+              class="footer-link"
+              aria-label="Ссылка на раздел Сертификаты"
+              >Сертификаты</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="lang-dropdown">
-        <button class="lang-toggle" id="lang-toggle-footer">
-          <img src="/img/language/ru.png" alt="ru" width="24" height="24" />
+        <button
+          class="lang-toggle"
+          id="lang-toggle-footer"
+          aria-label="Выбор языка"
+        >
+          <img
+            src="/img/language/ru.png"
+            alt="Русский"
+            width="24"
+            height="24"
+          />
           <span class="footer-lang-selected">Русский</span>
           <svg class="footer-arr-down-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#arrow-down"></use>
           </svg>
         </button>
-        <ul class="lang-menu" id="lang-menu-footer">
+        <ul class="lang-menu" id="lang-menu-footer" aria-label="Список языков">
           <li>
-            <a href="/uk/index.html"
-              ><img src="/img/language/uk.png" alt="uk" /> Українська</a
+            <a
+              href="/uk/index.html"
+              aria-label="Переключиться на украинский язык"
+              ><img src="/img/language/uk.png" alt="Украинский" /> Українська</a
             >
           </li>
           <li>
-            <a href="/en/index.html"
-              ><img src="/img/language/en.png" alt="en" /> English</a
+            <a href="/en/index.html" aria-label="Switch to English"
+              ><img src="/img/language/en.png" alt="English" /> English</a
             >
           </li>
           <li>
-            <a href="/cz/index.html"
-              ><img src="/img/language/cz.png" alt="cz" /> Čeština</a
+            <a href="/cz/index.html" aria-label="Přepnout na češtinu"
+              ><img src="/img/language/cz.png" alt="Čeština" /> Čeština</a
             >
           </li>
         </ul>
       </div>
       <div class="footer-actions">
-        <button class="btn btn-call btn-footer">
+        <button
+          class="btn btn-call btn-footer"
+          aria-label="Кнопка для заказа звонка"
+        >
           Заказать звонок
           <svg class="btn-call-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#arrow" />

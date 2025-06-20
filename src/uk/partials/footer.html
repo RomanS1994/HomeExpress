@@ -1,4 +1,3 @@
-<!-- Footer -->
 <footer class="footer">
   <div class="container footer-container">
     <div class="footer-content">
@@ -23,7 +22,13 @@
         </ul>
       </nav>
       <div class="lang-dropdown">
-        <button class="lang-toggle" id="lang-toggle-footer">
+        <button
+          class="lang-toggle"
+          id="lang-toggle-footer"
+          aria-label="Змінити мову сайту"
+          aria-expanded="false"
+          aria-controls="lang-menu-footer"
+        >
           <img src="/img/language/uk.png" alt="ua" width="24" height="24" />
           <span class="footer-lang-selected">Українська</span>
           <svg class="footer-arr-down-svg" width="24" height="24">
@@ -49,7 +54,10 @@
         </ul>
       </div>
       <div class="footer-actions">
-        <button class="btn btn-call btn-footer">
+        <button
+          class="btn btn-call btn-footer"
+          aria-label="Замовити зворотний дзвінок"
+        >
           Замовити дзвінок
           <svg class="btn-call-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#arrow" />

@@ -1,5 +1,5 @@
 <!-- Call to Action Section -Russian-->
-<section id="cta" class="cta">
+<section id="cta" class="cta" aria-label="Блок призыва к действию">
   <div class="container cta-container">
     <div class="cta-box">
       <h3 class="cta-title">
@@ -8,20 +8,26 @@
       <p class="cta-description">
         Оставьте нам номер телефона, и мы свяжемся с вами в ближайшее время!
       </p>
-      <form class="cta-form" netlify>
+      <form class="cta-form" netlify aria-label="Форма для запроса звонка">
         <input
           type="text"
           name="name"
           class="form-input"
           placeholder="Ваше имя"
+          aria-label="Введите ваше имя"
         />
         <input
           type="tel"
           name="phone"
           class="form-input"
           placeholder="Телефон"
+          aria-label="Введите ваш номер телефона"
         />
-        <button type="submit" class="btn btn-submit">
+        <button
+          type="submit"
+          class="btn btn-submit"
+          aria-label="Подтвердить и отправить номер телефона"
+        >
           Заказать звонок
           <svg class="btn-call-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#arrow" />
@@ -32,6 +38,6 @@
         *Нажимая кнопку, вы даете согласие на обработку персональных данных
       </p>
     </div>
-    <div class="img-box"></div>
+    <div class="img-box" aria-hidden="true"></div>
   </div>
 </section>

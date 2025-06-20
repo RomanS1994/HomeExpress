@@ -1,9 +1,18 @@
 <!-- Modal RU -->
-<div id="feedback-modal" class="modal feedback-modal container">
+<div
+  id="feedback-modal"
+  class="modal feedback-modal container"
+  aria-label="Форма обратной связи"
+>
   <section id="cta" class="cta cta-feedback-modal">
     <div class="container cta-container-feedback">
       <div class="cta-box cta-box-feedback">
-        <button class="close-feedback-modal" id="modal-close" type="button">
+        <button
+          class="close-feedback-modal"
+          id="modal-close"
+          type="button"
+          aria-label="Закрыть форму"
+        >
           <svg class="close-feedback-svg" width="24" height="24">
             <use href="/img/svg/main_sprite.svg#close"></use>
           </svg>
@@ -14,20 +23,26 @@
         <p class="cta-description">
           Оставьте свой номер, и мы свяжемся с вами в ближайшее время!
         </p>
-        <form class="cta-form" netlify>
+        <form class="cta-form" netlify aria-label="Форма для заказа звонка">
           <input
             type="text"
             name="name"
             class="form-input"
             placeholder="Ваше имя"
+            aria-label="Введите ваше имя"
           />
           <input
             type="tel"
             name="phone"
             class="form-input"
             placeholder="Телефон"
+            aria-label="Введите ваш номер телефона"
           />
-          <button type="submit" class="btn btn-submit">
+          <button
+            type="submit"
+            class="btn btn-submit"
+            aria-label="Подтвердить и отправить номер телефона"
+          >
             Заказать звонок
             <svg class="btn-call-svg" width="24" height="24">
               <use href="/img/svg/main_sprite.svg#arrow" />
@@ -37,7 +52,7 @@
         <p class="cta-helper">
           *Нажимая кнопку, вы соглашаетесь на обработку персональных данных.
         </p>
-        <div class="modal-contacts">
+        <div class="modal-contacts" aria-label="Контактная информация">
           <p class="modal-contacts-description">Или позвоните нам напрямую:</p>
           <p class="modal-contacts-tel">+38 (097) 123 12 12 (Киевстар)</p>
           <p class="modal-contacts-tel">+38 (066) 123 12 12 (Vodafone)</p>

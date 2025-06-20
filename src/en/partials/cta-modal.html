@@ -1,35 +1,49 @@
 <!-- Modal EN -->
-<div id="feedback-modal" class="modal feedback-modal container">
+<div
+  id="feedback-modal"
+  class="modal feedback-modal container"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-title"
+  aria-describedby="modal-description"
+>
   <section id="cta" class="cta cta-feedback-modal">
     <div class="container cta-container-feedback">
       <div class="cta-box cta-box-feedback">
-        <button class="close-feedback-modal" id="modal-close" type="button">
-          <svg class="close-feedback-svg" width="24" height="24">
+        <button
+          class="close-feedback-modal"
+          id="modal-close"
+          type="button"
+          aria-label="Close feedback form"
+        >
+          <svg class="close-feedback-svg" width="24" height="24" aria-hidden="true">
             <use href="/img/svg/main_sprite.svg#close"></use>
           </svg>
         </button>
-        <h3 class="cta-title">
+        <h3 id="modal-title" class="cta-title">
           Want to know about available offers right now?
         </h3>
-        <p class="cta-description">
+        <p id="modal-description" class="cta-description">
           Leave us your phone number and we will contact you shortly!
         </p>
-        <form class="cta-form" netlify>
+        <form class="cta-form" netlify aria-label="Callback request form">
           <input
             type="text"
             name="name"
             class="form-input"
             placeholder="Your name"
+            aria-label="Your name"
           />
           <input
             type="tel"
             name="phone"
             class="form-input"
             placeholder="Phone"
+            aria-label="Phone number"
           />
-          <button type="submit" class="btn btn-submit">
+          <button type="submit" class="btn btn-submit" aria-label="Submit phone number to request a call">
             Request a Call
-            <svg class="btn-call-svg" width="24" height="24">
+            <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
               <use href="/img/svg/main_sprite.svg#arrow" />
             </svg>
           </button>
@@ -38,7 +52,7 @@
           *By clicking the button, you consent to the processing of personal
           data.
         </p>
-        <div class="modal-contacts">
+        <div class="modal-contacts" aria-label="Contact phone numbers">
           <p class="modal-contacts-description">Or call us directly:</p>
           <p class="modal-contacts-tel">+38 (097) 123 12 12 (Kyivstar)</p>
           <p class="modal-contacts-tel">+38 (066) 123 12 12 (Vodafone)</p>

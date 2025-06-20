@@ -1,57 +1,80 @@
 <!-- Header - Czech -->
-<header>
+<header aria-label="Horní navigace webu">
   <div class="container">
-    <nav class="nav">
+    <nav class="nav" aria-label="Hlavní navigace">
       <div class="logo">
-        <img class="logo-img" src="/img/svg/logo.svg" alt="HomeExpress logo" />
+        <img class="logo-img" src="/img/svg/logo.svg" alt="Logo HomeExpress" />
       </div>
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="#projects" class="nav-link">Naše projekty</a>
+          <a
+            href="#projects"
+            class="nav-link"
+            aria-label="Přejít na sekci Naše projekty"
+            >Naše projekty</a
+          >
         </li>
         <li class="nav-item">
-          <a href="#services" class="nav-link">Služby</a>
+          <a
+            href="#services"
+            class="nav-link"
+            aria-label="Přejít na sekci Služby"
+            >Služby</a
+          >
         </li>
         <li class="nav-item">
-          <a href="#certificates" class="nav-link">Certifikáty</a>
+          <a
+            href="#certificates"
+            class="nav-link"
+            aria-label="Přejít na sekci Certifikáty"
+            >Certifikáty</a
+          >
         </li>
       </ul>
       <div class="header-actions">
-        <button class="btn btn-call">
+        <button class="btn btn-call" aria-label="Požádat o zpětné volání">
           Zavolejte mi
-          <svg class="btn-call-svg" width="24" height="24">
+          <svg class="btn-call-svg" width="24" height="24" aria-hidden="true">
             <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>
-        <div class="lang-dropdown">
-          <button class="lang-toggle" id="lang-toggle">
+        <div class="lang-dropdown" aria-label="Výběr jazyka">
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            aria-label="Aktuální jazyk: Čeština. Otevřít nabídku jazyků"
+          >
             <img src="/img/language/cz.png" alt="cz" />
             <span class="lang-selected">Čeština</span>
-            <svg class="arr-down-svg" width="24" height="24">
+            <svg class="arr-down-svg" width="24" height="24" aria-hidden="true">
               <use href="/img/svg/main_sprite.svg#arrow-down"></use>
             </svg>
           </button>
-          <ul class="lang-menu" id="lang-menu">
+          <ul class="lang-menu" id="lang-menu" aria-label="Možnosti jazyků">
             <li>
-              <a href="/uk/index.html"
-                ><img src="/img/language/uk.png" alt="ua" /> Українська</a
-              >
+              <a href="/uk/index.html" aria-label="Přepnout na ukrajinštinu">
+                <img src="/img/language/uk.png" alt="ua" /> Українська
+              </a>
             </li>
             <li>
-              <a href="/en/index.html"
-                ><img src="/img/language/en.png" alt="en" /> English</a
-              >
+              <a href="/en/index.html" aria-label="Přepnout na angličtinu">
+                <img src="/img/language/en.png" alt="en" /> English
+              </a>
             </li>
             <li>
-              <a href="/ru/index.html"
-                ><img src="/img/language/ru.png" alt="ru" /> Русский</a
-              >
+              <a href="/ru/index.html" aria-label="Přepnout na ruštinu">
+                <img src="/img/language/ru.png" alt="ru" /> Русский
+              </a>
             </li>
           </ul>
         </div>
       </div>
-      <button class="burger-btn" type="button">
-        <svg class="arr-down-svg" width="24" height="24">
+      <button
+        class="burger-btn"
+        type="button"
+        aria-label="Otevřít mobilní menu"
+      >
+        <svg class="arr-down-svg" width="24" height="24" aria-hidden="true">
           <use href="/img/svg/main_sprite.svg#Burger"></use>
         </svg>
       </button>
