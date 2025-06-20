@@ -14,24 +14,21 @@
         <p class="cta-description">
           Оставьте свой номер, и мы свяжемся с вами в ближайшее время!
         </p>
-        <form class="cta-form" name="contact" method="POST" data-netlify="true">
+        <form class="cta-form" netlify>
           <input
             type="text"
             name="name"
             class="form-input"
-            placeholder="Ваше ім’я"
-            required
+            placeholder="Ваше имя"
           />
           <input
             type="tel"
             name="phone"
             class="form-input"
             placeholder="Телефон"
-            required
           />
-
           <button type="submit" class="btn btn-submit">
-            Замовити дзвінок
+            Заказать звонок
             <svg class="btn-call-svg" width="24" height="24">
               <use href="/img/svg/main_sprite.svg#arrow" />
             </svg>

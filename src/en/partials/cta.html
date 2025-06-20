@@ -6,35 +6,26 @@
       <p class="cta-description">
         Leave us your phone number and we’ll get in touch with you shortly!
       </p>
-      <form
-        name="contact-cz"
-        method="POST"
-        data-netlify="true"
-        class="cta-form"
-      >
+      <form class="cta-form" netlify>
         <input
           type="text"
           name="name"
           class="form-input"
-          placeholder="Vaše jméno"
-          required
+          placeholder="Your name"
         />
         <input
           type="tel"
           name="phone"
           class="form-input"
-          placeholder="Telefon"
-          required
+          placeholder="Phone number"
         />
-
         <button type="submit" class="btn btn-submit">
-          Zavolejte mi
+          Request a call
           <svg class="btn-call-svg" width="24" height="24">
-            <use href="/img/svg/main_sprite.svg#arrow"></use>
+            <use href="/img/svg/main_sprite.svg#arrow" />
           </svg>
         </button>
       </form>
-
       <p class="cta-helper">
         *By clicking the button, you consent to the processing of personal data
       </p>
