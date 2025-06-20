@@ -1,5 +1,5 @@
 [build]
-  publish = "public"  
+  publish = "dist"  
 
 [[redirects]]
   from = "/"
@@ -28,5 +28,5 @@
 
 [[redirects]]
   from = "/"
-  to = "/сz/"
+  to = "/cz/"
   status = 302
