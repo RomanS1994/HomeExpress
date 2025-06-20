@@ -5,8 +5,8 @@
 
 .cta-container-feedback {
   background-image: image-set(
-    url(/img/gesktop/feeback.jpg) 1x,
-    url(/img/gesktop/feeback@2x.jpg)
+    url(/img/gesktop/feeback.webp) 1x,
+    url(/img/gesktop/feeback@2x.webp)
   );
   background-size: cover;
   background-position: center;

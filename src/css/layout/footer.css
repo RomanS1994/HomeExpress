@@ -8,7 +8,10 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    image-set(url(/img/gesktop/footer.jpg) 1x, url(/img/gesktop/footer@2x.jpg));
+    image-set(
+      url(/img/gesktop/footer.webp) 1x,
+      url(/img/gesktop/footer@2x.webp)
+    );
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;

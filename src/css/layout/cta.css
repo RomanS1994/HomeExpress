@@ -21,7 +21,7 @@
   flex-shrink: 0;
 
   border-radius: 32px;
-  background: var(--blue);
+  background: var(--green);
 }
 .cta-title {
   color: var(--white);
@@ -108,8 +108,8 @@
   width: 100%;
   height: 582px;
   background-image: image-set(
-    url(/img/gesktop/cta.jpg) 1x,
-    url(/img/gesktop/cta@2x.jpg) 2x
+    url(/img/gesktop/cta.webp) 1x,
+    url(/img/gesktop/cta@2x.webp) 2x
   );
   background-size: cover;
   background-position: center;

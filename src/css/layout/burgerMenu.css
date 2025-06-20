@@ -29,7 +29,7 @@
   max-width: 360px;
   width: 100%;
 
-  background: #0047d3;
+  background: var(--green);
   padding: 24px;
   z-index: 999;
 
