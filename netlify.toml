@@ -1,0 +1,32 @@
+[build]
+  publish = "public"  
+
+[[redirects]]
+  from = "/"
+  to = "/uk/"
+  status = 302
+  conditions = { Language = ["uk"] }
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  conditions = { Language = ["en"] }
+
+[[redirects]]
+  from = "/"
+  to = "/cz/"
+  status = 302
+  conditions = { Language = ["cs", "cz"] }
+
+[[redirects]]
+  from = "/"
+  to = "/ru/"
+  status = 302
+  conditions = { Language = ["ru"] }
+
+
+[[redirects]]
+  from = "/"
+  to = "/сz/"
+  status = 302
