@@ -35,6 +35,7 @@
 }
 .close-feedback-modal {
   display: flex;
+  justify-content: center;
   align-items: center;
   position: absolute;
   top: 24px;
